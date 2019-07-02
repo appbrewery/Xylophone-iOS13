@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.15"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="dvW-ZB-0JS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dvW-ZB-0JS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="z16-yo-3fe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="z16-yo-3fe">
                                 <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="WQj-h3-eCb"/>
@@ -36,7 +33,7 @@
                         <constraints>
                             <constraint firstItem="dvW-ZB-0JS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Eq8-qs-azj"/>
                             <constraint firstAttribute="trailing" secondItem="dvW-ZB-0JS" secondAttribute="trailing" id="PNx-Wg-ot4"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="dvW-ZB-0JS" secondAttribute="bottom" id="ZGb-l3-zLm"/>
+                            <constraint firstAttribute="bottom" secondItem="dvW-ZB-0JS" secondAttribute="bottom" id="ZGb-l3-zLm"/>
                             <constraint firstItem="z16-yo-3fe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bfw-Oj-Qal"/>
                             <constraint firstItem="z16-yo-3fe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xKv-Wh-Yxd"/>
                             <constraint firstItem="dvW-ZB-0JS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zvz-9i-v8j"/>
@@ -49,7 +46,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AppBreweryLogo.png" width="380" height="118"/>
-        <image name="background.png" width="1163" height="1753"/>
+        <image name="AppBreweryLogo" width="190" height="59"/>
+        <image name="background" width="581.5" height="876.5"/>
     </resources>
 </document>
