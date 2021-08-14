@@ -18,7 +18,17 @@ class ViewController: UIViewController {
     }
     //All btns connencted to same IBAction function
     @IBAction func keyPressed(_ sender: UIButton) {
+      
         playSound(soundName: sender.currentTitle!)
+        
+        // reduce the opacity to half
+        sender.alpha = 0.4
+        
+        // 0.2 s delay
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+        // opacity back to normal
+        sender.alpha = 1.0
+                  }
     }
     
     func playSound(soundName: String) {
