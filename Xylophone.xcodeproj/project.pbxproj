@@ -21,6 +21,7 @@
 		ADE587F722CB513D007F0F9A /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = ADE587F022CB513D007F0F9A /* F.wav */; };
 		ADE587F822CB513D007F0F9A /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = ADE587F122CB513D007F0F9A /* B.wav */; };
 		ADE587F922CB513D007F0F9A /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = ADE587F222CB513D007F0F9A /* D.wav */; };
+		B456B7CE27652AFE00B489D6 /* HighC.wav in Resources */ = {isa = PBXBuildFile; fileRef = B456B7CD27652AFE00B489D6 /* HighC.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		ADE587F022CB513D007F0F9A /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
 		ADE587F122CB513D007F0F9A /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
 		ADE587F222CB513D007F0F9A /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		B456B7CD27652AFE00B489D6 /* HighC.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HighC.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				ADE587ED22CB513C007F0F9A /* G.wav */,
 				ADE587EC22CB513C007F0F9A /* A.wav */,
 				ADE587F122CB513D007F0F9A /* B.wav */,
+				B456B7CD27652AFE00B489D6 /* HighC.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				ADE587F922CB513D007F0F9A /* D.wav in Resources */,
 				ADE587F522CB513D007F0F9A /* C.wav in Resources */,
 				ADE587F822CB513D007F0F9A /* B.wav in Resources */,
+				B456B7CE27652AFE00B489D6 /* HighC.wav in Resources */,
 				ADE587F322CB513D007F0F9A /* A.wav in Resources */,
 				ADE587F622CB513D007F0F9A /* E.wav in Resources */,
 				AD937BFD22C61DBB002E2D88 /* Main.storyboard in Resources */,
