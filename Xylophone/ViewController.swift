@@ -20,15 +20,18 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        playSound(fileName: sender.currentTitle!)
-        UIView.animate(withDuration: 0.2) {
+        sender.layer.shouldRasterize = true
+        sender.layer.rasterizationScale = UIScreen.main.scale
+        UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseInOut) {
             sender.alpha = 0.5
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2){
-            UIView.animate(withDuration: 0.2) {
+            UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseInOut) {
                 sender.alpha = 1.0
             }
+            sender.layer.shouldRasterize = false
         }
+        playSound(fileName: sender.currentTitle!)
     }
     
     // A function that takes a sound file name as a parameter and plays the sound using AVAudioPlayer
