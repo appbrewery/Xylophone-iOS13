@@ -20,24 +20,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        print(sender.titleLabel!.text!)
-        switch sender.titleLabel!.text {
-        case ("C"):
-            playSound(fileName: "C")
-        case ("D"):
-            playSound(fileName: "D")
-        case ("E"):
-            playSound(fileName: "E")
-        case ("F"):
-            playSound(fileName: "F")
-        case ("G"):
-            playSound(fileName: "G")
-        case("A"):
-            playSound(fileName: "A")
-        case("B"):
-            playSound(fileName: "B")
-        default:
-            print("tested")
+        playSound(fileName: sender.currentTitle!)
+        UIView.animate(withDuration: 0.2) {
+            sender.alpha = 0.5
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2){
+            UIView.animate(withDuration: 0.2) {
+                sender.alpha = 1.0
+            }
         }
     }
     
